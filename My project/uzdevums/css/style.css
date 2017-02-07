@@ -1,6 +1,9 @@
 *{
   box-sizing:border-box;
 }
+body{
+  font-family: Roboto, sans-serif;
+}
 /*----------------------Navigation bar----------------------*/
 .navbar{
   height:70px;
@@ -29,4 +32,8 @@ nav{
 .nav li{
   display:inline;
   padding-right:10px;
+}
+.nav a{
+  color:white;
+  text-decoration:none;
 }
