@@ -53,13 +53,16 @@ this.mdf=this.dynamicProperties[t].mdf?!0:this.mdf},GroupEffect.prototype.init=f
         container: document.getElementById('bodymovin'),
         renderer: 'svg',
         loop: false,
-        autoplay: true,
+        autoplay: false,
         animationData: animationData
     };
 
     var anim;
 
     anim = bodymovin.loadAnimation(params);
+    ("#bodymovin").click(function() {
+ 			bodymovin.play();
+    });
 
 </script>
 </body>
