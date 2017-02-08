@@ -18,7 +18,9 @@ body{
   color:white;
   float:left;
   padding-left:10px;
-  margin-top:25px;
+  margin-top:28px;
+  font-size:14px;
+  font-weight:300;
 }
 nav{
   float:right;
@@ -31,9 +33,23 @@ nav{
 }
 .nav li{
   display:inline;
-  padding-right:10px;
+  padding-right:15px;
+  height:70px;
+}
+.nav li:nth-child(5){
+  padding-right:0;
 }
 .nav a{
   color:white;
   text-decoration:none;
+  font-size:0.875em;
+  font-weight:300;
+}
+/*----------------------Hero banner----------------------*/
+
+#header{
+  background-image:url('../img/hero_bg.svg');
+  background-size:cover;
+  repeat:no-repeat;
+  height:100vh;
 }
