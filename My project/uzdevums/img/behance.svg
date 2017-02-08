@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="18" viewBox="0 0 28 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 1;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="698" y="732" width="32" height="21" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="behance" class="cls-1" d="M719,734.036h7.965v2.088H719v-2.088ZM729.987,746.4h-10.37c0.11,2.581,1.333,3.532,3.529,3.532,1.586,0,2.867-.519,3.117-1.438h3.162c-1.111,3.5-3.162,4.506-6.417,4.506-4.532,0-7.34-3.211-7.34-7.8,0-4.446,2.976-7.829,7.34-7.829C727.9,737.373,730.265,741.841,729.987,746.4Zm-10.37-3.031h6.423c-0.362-2.063-1.226-2.926-3.144-2.926A3,3,0,0,0,719.617,743.369Zm-4.985,3.293c0,4.158-3.422,5.938-7.009,5.938H698V732h9.345c3.78,0,6.338,1.39,6.338,5.2a4.5,4.5,0,0,1-2.7,4.274A4.982,4.982,0,0,1,714.632,746.662Zm-8.55-11.2H702v4.788h4.42c1.529,0,2.669-.717,2.669-2.435C709.084,735.865,707.638,735.462,706.082,735.462Zm0.666,7.855H702v5.621h4.67c1.724,0,3.224-.572,3.224-2.695C709.889,744.151,708.612,743.317,706.748,743.317Z" transform="translate(-698 -732)"/>
+</svg>
