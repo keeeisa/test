@@ -77,5 +77,10 @@ nav{
   list-style: none;
   display:inline;
   vertical-align:center;
-  
+  padding:15px
+}
+.social-icons-container{
+  text-align:center;
+  margin-top:50px;
+  padding-left:0;
 }
