@@ -5,6 +5,16 @@ body{
   font-family: Roboto, sans-serif;
   color:white;
 }
+h1{
+  font-family:Roboto, sans-serif;
+  text-transform:uppercase;
+  font-size:30px;
+  font-weight:300;
+  text-align:center;
+  margin-top:0px;
+  padding-top:120px;
+
+}
 /*----------------------Navigation bar----------------------*/
 .navbar{
   height:70px;
@@ -59,7 +69,7 @@ nav{
   margin:0 auto;
 }
 .container{
-  width: 60%;
+  width: 54%;
   /* margin: 0 auto; */
   position: absolute;
   top: 50%;
@@ -83,4 +93,15 @@ nav{
   text-align:center;
   margin-top:50px;
   padding-left:0;
+}
+/*----------------------Section Pakalpojumi----------------------*/
+#services{
+  background-color:#d33523;
+  overflow:hidden;
+}
+.services-col{
+  max-width:25%;
+  float:left;
+  text-align:center;
+  padding:2%;
 }
