@@ -1,9 +1,11 @@
+/*----------------------Global----------------------*/
 *{
   box-sizing:border-box;
 }
 body{
   font-family: Roboto, sans-serif;
   color:white;
+  background-color:#d5402e;
 }
 h1{
   font-family:Roboto, sans-serif;
@@ -26,6 +28,13 @@ h2{
   font-weight:400;
   line-height: 1.5;
   text-transform:uppercase;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+li{
+  list-style:none;
 }
 /*----------------------Navigation bar----------------------*/
 .navbar{
@@ -101,6 +110,9 @@ nav{
   vertical-align:center;
   padding:15px
 }
+.social-icons:hover{
+  opacity:0.5;
+}
 .social-icons-container{
   text-align:center;
   margin-top:50px;
@@ -129,3 +141,7 @@ nav{
   width:90px;
 }
 /*----------------------Section Pakalpojumi----------------------*/
+#pakalpojumi{
+  background-image:url('../img/bg-green.svg');
+  background-size:cover;
+}
