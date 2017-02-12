@@ -176,6 +176,10 @@ nav{
   width:8px;
   height:8px;
   display:inline-block;
+  margin-right:7px;
+}
+.slider-buttons li:last-child{
+  margin-right:0;
 }
 .slider-button-active{
   background-color:white;
