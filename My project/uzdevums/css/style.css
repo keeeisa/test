@@ -192,9 +192,12 @@ nav{
 .img-cell{
   width:25%;
   float:left;
-  
+  max-height:300px;
 }
 .img-cell img{
   width:100%;
-
+}
+/*----------------------Section pricing----------------------*/
+#price-list{
+  overflow:hidden;
 }
