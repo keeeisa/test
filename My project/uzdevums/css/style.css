@@ -149,7 +149,7 @@ nav{
   margin-top:50px;
   padding-left:0;
   position: absolute;
-  bottom: 1.5%;
+  bottom: 3%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -288,7 +288,7 @@ ul.details{
   border-radius:5px;
   font-weight:300;
   padding:10px 50px;
-  margin-bottom:80px;
+  margin-bottom:60px;
 }
 .active{
   background-color:#316769;
@@ -299,4 +299,8 @@ ul.details{
 .active .button{
   background-color:#478587;
   border: 1px solid #71b2b4;
+}
+/*----------------------Section team----------------------*/
+#team{
+  background-color: #57aa68;
 }
