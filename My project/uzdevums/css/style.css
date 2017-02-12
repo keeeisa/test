@@ -304,3 +304,12 @@ ul.details{
 #team{
   background-color: #57aa68;
 }
+.member{
+  float:left;
+  /*margin-right:20px;*/
+  width:25%;
+  text-align: center;
+}
+.team-members:last-child{
+  margin-right:0px;
+}
