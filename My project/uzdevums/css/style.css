@@ -89,6 +89,7 @@ nav{
 .wrapper{
   max-width:1100px;
   margin:0 auto;
+  overflow:hidden;
 }
 .container{
   width: 54%;
@@ -159,4 +160,23 @@ nav{
 }
 .nav-pills li:last-child{
   padding-right:0;
+}
+.pill-active a{
+  border: 1px solid white;
+  padding:5px 15px;
+  border-radius:5px;
+}
+.slider-buttons{
+  text-align:center;
+  padding:40px 0 20px 0;
+}
+.slider-buttons li{
+  border: 1px solid white;
+  border-radius:50%;
+  width:8px;
+  height:8px;
+  display:inline-block;
+}
+.slider-button-active{
+  background-color:white;
 }
