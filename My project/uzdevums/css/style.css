@@ -313,3 +313,17 @@ ul.details{
 .team-members:last-child{
   margin-right:0px;
 }
+.member img{
+  width:90%
+}
+.member h3{
+  font-size:18px;
+  font-weight:400;
+  margin-top:20px;
+  margin-bottom:0;
+}
+.member p{
+  font-size:13px;
+  opacity:0.5;
+  margin-top:7px;
+}
