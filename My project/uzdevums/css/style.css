@@ -184,3 +184,17 @@ nav{
 .slider-button-active{
   background-color:white;
 }
+/*----------------------Section img-grid----------------------*/
+.img-grid{
+  width:100%;
+  overflow:hidden;
+}
+.img-cell{
+  width:25%;
+  float:left;
+  
+}
+.img-cell img{
+  width:100%;
+
+}
