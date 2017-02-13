@@ -232,6 +232,11 @@ nav{
   width:100%;
   display:block;
 }
+.overlay{
+  position:absolute;
+  background-color:#57aa68;
+  opacity:0.8;
+}
 /*----------------------Section pricing----------------------*/
 #price-list{
   overflow:hidden;
