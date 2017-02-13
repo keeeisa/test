@@ -68,7 +68,11 @@ ul{
 /*----------------------Navigation bar----------------------*/
 .navbar{
   height:70px;
-  background-color:#d5402e;
+  background-color:#d33523;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:10;
 }
 .navbar img{
   width:43px;
