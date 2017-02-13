@@ -231,7 +231,7 @@ nav{
 /*----------------------Section pricing----------------------*/
 #price-list{
   overflow:hidden;
-  /*background-image:url("../img/bg-green.svg");*/
+  background-image:url("../img/bg-turc.svg");
   background-size:cover;
   background-color:#2a5759;
   /*background-blend-mode:overlay;*/
@@ -239,9 +239,9 @@ nav{
 #pricing-table{
   background-color:#2a5759;
 }
-.pricing-table{
+/*.pricing-table{
   margin-top:20px;
-}
+}*/
 .plan {
 	box-sizing: border-box;
 	width: 25%;
@@ -252,7 +252,7 @@ nav{
 
 h3.name{
 	font-size: 20px;
-	padding: 15px; color: #fff;
+	padding: 40px; color: #fff;
   text-transform:uppercase;
   font-weight:400;
   border-bottom: 1px solid #437c7e;
@@ -310,6 +310,9 @@ ul.details{
   width:25%;
   text-align: center;
 }
+.team-members{
+  margin-bottom:70px;
+}
 .team-members:last-child{
   margin-right:0px;
 }
@@ -326,4 +329,56 @@ ul.details{
   font-size:13px;
   opacity:0.5;
   margin-top:7px;
+}
+/*----------------------Section contact----------------------*/
+.wrapper-form{
+  max-width:620px;
+  margin:0 auto;
+  overflow:hidden;
+}
+#contact{
+  background-image: url('../img/bg-blue.svg');
+  background-size:cover;
+}
+#contact-form{
+  margin-top: 60px;
+}
+fieldset {
+	border: medium none !important;
+	margin: 70px 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+#contact-form input[type="text"],#contact-form input[type="e-mail"], #contact-form textarea{
+  width:100%;
+  background:#2e2d6b;
+  margin:0 0 5px;
+  padding:10px;
+  opacity:0.8;
+  border-radius:5px;
+  border:none;
+  color:white;
+  font-size:13px;
+}
+#contact-form textarea{
+  height:230px;
+  resize:none;
+  width:100%
+}
+#contact-form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:1px solid white;
+	background:none;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:1em;
+  text-transform:uppercase;
+  border-radius: 5px;
+}
+.wrapper-form p{
+  text-align: center;
+  font-size: 18px;
 }
