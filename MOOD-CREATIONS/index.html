@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>title</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js">
     </script>
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <div class="navbar">
@@ -32,11 +34,10 @@
             <div class="container">
               <img  src="img/punchline.svg" alt="Mood Creations">
               <p class="lead-text">Mēs ticam, ka esam paveikuši savu darbu labi, ja klients iegūst
-                 efektīvu un viegli lietojamu instrumentu –vai tas būtu mājas
+                 efektīvu un viegli lietojamu instrumentu - vai tas būtu mājas
                  lapas prototips, makets, logotips – kas palīdz sasniegt
-                 nepieciešamo rezultātu –pārdot preci, izglītot, izklaidēt
+                 nepieciešamo rezultātu - pārdot preci, izglītot, izklaidēt
                  vai informēt</p>
-
             </div>
             <ul class="social-icons-container">
               <li class="social-icons">
@@ -104,31 +105,86 @@
     </section>
     <section id="image-grid">
       <div class="img-grid cf">
-          <div class="img-cell">
-            <div class="overlay"><img src="img/overlay-icon.svg"></div>
+          <a href="#" class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p>Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-01.jpg">
-          </div>
-          <div class="img-cell">
+          </a>
+          <a href="#" class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p>Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-02.jpg">
-          </div>
-          <div class="img-cell">
+          </a>
+          <a href="#" class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p>Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-03.jpg">
-          </div>
-          <div class="img-cell">
+          </a>
+          <a href="#" class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p>Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-04.jpg">
-          </div>
-          <div class="img-cell">
+          </a>
+          <a href="#" class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p>Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-05.jpg">
-          </div>
-          <div class="img-cell">
+          </a>
+          <a href="#" class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p>Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-06.jpg">
-          </div>
+          </a>
           <div class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p>Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-07.jpg">
           </div>
-          <div class="img-cell">
+          <a href="#" class="img-cell">
+            <div class="overlay">
+              <div class="overlay-content">
+                <img src="img/overlay-icon.svg">
+                <p class="overlay-p">Proin gravida nibh vel velit</p>
+                <span>Fotogrāfija</span>
+              </div>
+            </div>
             <img src="img/photo-08.jpg">
-          </div>
+          </a>
       </div>
     </section>
     <section id="price-list">
@@ -210,7 +266,26 @@
       </ul>
       <div class="team-members cf">
         <div class="member">
-          <img src="img/team-01.jpg">
+          <div class="member-img">
+            <div class="overlay">
+              <div class="overlay-content">
+                <p>Proin gravida nibh vel velit auctor aliquet</p>
+                <span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit</span>
+                <div class="icons">
+                  <div class="i-container">
+                    <i class="fa fa-twitter fa-lg"></i>
+                  </div>
+                  <div class="i-container">
+                    <i class="fa fa-facebook fa-lg"></i>
+                  </div>
+                  <div class="i-container">
+                    <i class="fa fa-dribbble fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/team-01.jpg">
+          </div>
           <h3 class="member-name">Jānis Pirmais</h3>
           <p class="skill">Izpilddirektors</p>
         </div>
@@ -237,7 +312,7 @@
         <h1>Sazināties</h1>
          <form id="contact-form" action="" method="post">
             <fieldset>
-             <input placeholder="Vārds, Uzvārds" type="text" tabindex="1" required autofocus>
+             <input placeholder="Vārds, Uzvārds" type="text" tabindex="1" required>
             </fieldset>
             <fieldset>
              <input placeholder="E-pasts" type="e-mail" tabindex="2" required>
