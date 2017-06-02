@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>title</title>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js">
-    </script>
-    <script type="text/javascript" src="js/script.js">
-    </script>
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js">
+    </script> -->
+    <!-- <script type="text/javascript" src="js/script.js">
+    </script> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -312,13 +312,13 @@
         <h1>Sazināties</h1>
          <form id="contact-form" action="" method="post">
             <fieldset>
-             <input placeholder="Vārds, Uzvārds" type="text" tabindex="1" required>
+             <input placeholder="Vārds, Uzvārds" type="text" tabindex="1" id="js-input-1">
             </fieldset>
             <fieldset>
-             <input placeholder="E-pasts" type="e-mail" tabindex="2" required>
+             <input placeholder="E-pasts" type="e-mail" tabindex="2" id="js-input-2">
             </fieldset>
             <fieldset>
-              <textarea placeholder="Tavs jautājums" tabindex="5" required></textarea>
+              <textarea placeholder="Tavs jautājums" tabindex="5" id="js-textarea"></textarea>
             </fieldset>
             <fieldset>
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Sūtīt ziņu</button>
@@ -333,5 +333,7 @@
     <footer>
       <p class="copyright">ⓒ Copyright tekstam ir jābūt šeit, 2015</p>
     </footer>
+    <script type="text/javascript" src="js/script.js">
+    </script>
   </body>
 </html>
